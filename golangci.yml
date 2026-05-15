@@ -1,0 +1,13 @@
+version: "2"
+linters:
+  default: standart
+  exclusions:
+    generated: lax
+    paths-except:
+      - /vendor/*
+      - /migrations/*
+      - /docs/*
+run:
+  timeout: 5m
+severity:
+  option: value
